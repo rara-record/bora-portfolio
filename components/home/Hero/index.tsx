@@ -18,16 +18,21 @@ const Hero = () => {
           <br className="hidden lg:inline-block " /># 코드치는 개발자가 아닌
           생각하는 개발자가 되자. 🚀
         </p>
+
         <div className="flex justify-center">
           <Link href="/projects">
-            <a className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+            <a
+              className="text-white hover:text-white dark:text-white dark:hover:text-white inline-flex bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              href="/projects"
+            >
               프로젝트 보러가기
             </a>
           </Link>
 
           <a
-            href="https://github.com/rara-record"
-            className="ml-4 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            className="ml-4  text-white hover:text-white dark:text-white dark:hover:text-white inline-flex bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            href="https://github.com/rara-record/"
+            target="_blank"
           >
             깃허브 보러가기
           </a>

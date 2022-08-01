@@ -9,7 +9,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
-      <div>컨텐츠 {children}</div>
+      <div>{children}</div>
       <Footer />
     </>
   );
