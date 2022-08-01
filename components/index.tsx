@@ -6,3 +6,6 @@ export { default as DarkModeToggleButton } from "./UI/Button/DarkModeToggleButto
 // Home
 export { default as Hero } from "./home/Hero";
 export { default as Animation } from "./home/Animation";
+
+// Project
+export { default as CardProject } from "./Card/CardProject";
