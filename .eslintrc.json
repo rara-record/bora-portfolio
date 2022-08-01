@@ -29,6 +29,7 @@
     "no-unused-vars": "off",
     "no-undef": "off",
     "/no-useless-escape": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     "prettier/prettier": [
       "error",
       {
