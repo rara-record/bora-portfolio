@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "@types/react-icons": "^3.0.0",
     "dotenv": "^16.0.1",
+    "eslint-import-resolver-typescript": "^2.7.1",
     "next": "12.2.3",
     "next-themes": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
     "react-lottie-player": "^1.4.3"
   },
   "devDependencies": {
@@ -28,7 +32,7 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "12.2.3",
     "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "6.5.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "7.28.0",
