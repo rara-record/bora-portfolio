@@ -1,1 +1,1 @@
-배포: https://bora-portfolio.vercel.app/
+배포: bora-portfolio-i5ulcfkes-rara-record.vercel.app
