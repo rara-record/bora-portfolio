@@ -17,9 +17,6 @@ const CardProject = ({ data }: any) => {
   const end = data?.properties?.Workperiod?.date?.end;
   const URL = data?.properties?.URL.rich_text[0]?.href;
 
-  console.log(data);
-  console.log(data?.properties?.Notion.rich_text[0].href);
-
   const calculatedPeriod = (start: any, end: any) => {
     const startDateStringArray = start?.split("-");
     const endDateStringArray = end?.split("-");
